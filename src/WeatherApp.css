@@ -1,0 +1,81 @@
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(23, 71, 126);
+    border-radius: 30px;
+    box-shadow: -5px 5px 10px whitesmoke;
+
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid rgb(167, 206, 250);
+    border-radius: 4px;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(59, 112, 190);
+    color: white;
+    border: none;
+    border: 4px;
+    cursor: pointer;
+    transition: 1s all ease;
+
+}
+
+button.hover {
+    background-color: blue;
+}
+
+
+h2 {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+p {
+    margin-bottom: 5px;
+    color: whitesmoke;
+
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    box-shadow: -5px 5px 10px rgb(41, 134, 221);
+    border-radius: 40px;
+    background-color: rgb(64, 129, 185);
+}
+
+
+@media (max-width:900px) {
+    .container{
+        max-width: 80%;
+    }
+
+    h1{
+        font-size: 30px;
+
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
